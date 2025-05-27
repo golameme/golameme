@@ -1,0 +1,317 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #A678F7;
+    font-family: "Delius", cursive;
+    cursor: url(img/cursor.png), auto;
+}
+.container{
+    height: auto;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #A678F7;
+}
+.logo-box img{
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+.ticker_symbol h1{
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: "Caprasimo", serif;
+    color:#FFFFFF;
+}
+.menu-box ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.menu-box ul li{
+    float: left;
+}
+.menu-box ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.menu-box ul li a:hover{
+    color: black;
+}
+.chest{
+    margin-top: 160px;
+    margin-bottom: 0px;
+}
+.about .text-about{
+   font-size: 20px;
+}
+.btn-buy{
+    padding: 10px;
+    position: absolute;
+    width: 150px;
+    font-family: "Delius", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #5c14d8;
+    color: #FFFFFF;
+}
+.btn-buy:hover{
+    box-shadow: 5px 2px 30px 10px rgb(255, 255, 255);
+    margin: 5px 5px;
+    transition: 0.3s;
+}
+.about-photo img{
+    height: 500px;
+    float: right;
+}
+.how-to-buy{
+    font-size: 70px;
+    color: #FFFFFF;
+}
+.exchange{
+    margin-top: 25px;
+}
+.icon{
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+.icons{
+    padding: -5px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    margin: 20px 25px 5px 25px;
+    border-radius: 20%;
+}
+.icon:hover{
+    color: white;
+}
+.icons:hover{
+    box-shadow: 5px 2px 30px 10px rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.running-ads{
+    background-color: #5c14d8;
+    padding: 0;
+    margin-top: 38px;
+    color: #FFFFFF;
+}
+.how-to-buy{
+    background-color: #222020;
+}
+.instruction .box{
+    margin: 30px 20px;
+    padding: 10px;
+    border: 7px ridge #5c14d8;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 20px;
+}
+.instruction-photo img{
+    margin-top: 150px;
+    height: 600px;
+}
+iframe {
+  height: 600px;
+  width: 400px;
+  border: none;
+  /* animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%; */
+}
+.tokenomic{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 50%;
+    border: 7px ridge #5c14d8;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.btn-copy{
+    padding: 10px;
+    width: 150px;
+    font-family: "Delius", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #5c14d8;
+    color: #FFFFFF;
+}
+.btn-copy:active {
+    background-color: red;
+}
+/* @keyframes appear{
+    from{
+        opacity: 0;
+        clip-path: inset(100% 100% 0 0);
+    }
+    to{
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+} */
+/* Responsive -------------------------------*/
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){
+ 
+}
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .ticker_symbol h1{
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 30px;
+        font-family: "Caprasimo", serif;
+        color:#FFFFFF;
+    }
+    .menu-box ul li a{
+        padding:35px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .icon{
+        padding: 20px;
+    }
+    .instruction-photo img{
+        margin-top: 50px;
+        height: 400px;
+    }
+    .instruction .box{
+        margin: 20px 10px;
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+/*Meduim devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .logo-box img{
+        height: 80px;
+        padding: 0;
+        margin: 0;
+    }
+    .ticker_symbol h1{
+        margin-top: 60px;
+        margin-left: 35px;
+        font-size: 20px;
+    }
+    .menu-box ul li a{
+        padding: 15px;
+        font-size: 20px;
+        margin-top: 43px;
+    }
+    .about .text-about{
+        font-size: 15px;
+    }
+    .icon{
+        padding: 5px;
+        margin-top: 30px;
+    }
+    .about-photo img{
+        height: 350px;
+        float: right;
+    }
+    .instruction-photo img{
+        margin-top: 70px;
+        height: 350px;
+    }
+    .instruction .box{
+        margin: 20px 10px;
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .logo-box img{
+        height: 50px;
+    }
+    .ticker_symbol h1{
+        margin-top: 25px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .menu-box ul li a{
+        padding: 5px;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .about .text-about{
+        font-size: 12px;
+    }
+    .icon{
+        padding: 5px;
+        margin-top: 30px;
+        font-size: 5px;
+    }
+    .about-photo img{
+        height: 250px;
+    }
+    .instruction-photo img{
+        margin-top: 0px;
+        height: 350px;
+    }
+    .instruction .box{
+        margin: 20px 10px;
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+/*Extal small devices (portait phones, less than 576px) */
+@media (max-width: 575.98px){
+    .chest{
+        margin-top: 120px;
+    }
+    .logo-box img{
+        height:50px;
+    }
+    .ticker_symbol h1{
+        margin-top: 2px;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .menu-box ul li a{
+        padding: 15px;
+        font-size: 17px;
+        margin-top: -20px;
+    }
+    .about .text-about{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .icon{
+        padding: 5px;
+        margin-top: 30px;
+        font-size: 5px;
+    }
+    .about-photo img{
+        height: 450px;
+    }
+    .how-to-buy{
+        font-size: 30px;
+    }
+    .instruction .box{
+        margin: 20px 50px 20px 5px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .instruction-photo img{
+        margin: -50px 20px 20px -50px;
+        height: 350px;
+    }
+    #decentralize{
+        margin-left: -50px;
+    }
+}
